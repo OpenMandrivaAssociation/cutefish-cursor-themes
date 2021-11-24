@@ -1,7 +1,10 @@
+%define git 20211002
+%define oname cursor-themes
+
 %define  _name  cutefish
 Name:           cutefish-cursor-themes
-Version:        @SERVICE@
-Release:        0
+Version:        0
+Release:        0.%{git}.1
 Summary:        Cutefish Desktop Cursors Theme
 License:        GPL-3.0-or-later
 Group:          System/GUI/KDE
@@ -16,7 +19,7 @@ BuildArch:      noarch
 Dark and Light cursors for Cutefish Desktop
 
 %prep
-%autosetup
+%autosetup -n %{oname}-master
 
 %build
 
@@ -32,4 +35,3 @@ find -L %{buildroot}%{_datadir}/icons -type l -delete -print
 %files
 %doc README.md
 %{_datadir}/icons/%{_name}*/
-#%%license LICENSE
