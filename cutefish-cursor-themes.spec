@@ -1,12 +1,12 @@
 %define  _name  cutefish
-Name:           cutefish-cursors
+Name:           cutefish-cursor-themes
 Version:        @SERVICE@
 Release:        0
 Summary:        Cutefish Desktop Cursors Theme
 License:        GPL-3.0-or-later
 Group:          System/GUI/KDE
 URL:            https://github.com/cutefishos/cursor-themes
-Source:         %{name}-%{version}.tar.xz
+Source:         https://github.com/cutefishos/cursor-themes/archive/refs/heads/cursor-themes-master.tar.gz
 BuildRequires:  fdupes
 BuildRequires:  hicolor-icon-theme
 #equires:       gtk3-tools
