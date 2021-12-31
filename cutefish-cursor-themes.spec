@@ -4,7 +4,7 @@
 %define  _name  cutefish
 Name:           cutefish-cursor-themes
 Version:        0
-Release:        0.%{git}.1
+Release:        0.%{git}.2
 Summary:        Cutefish Desktop Cursors Theme
 License:        GPL-3.0-or-later
 Group:          System/GUI/KDE
